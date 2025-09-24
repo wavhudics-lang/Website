@@ -1,0 +1,191 @@
+body{
+    background-color: #e0f4cc;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper{
+    width: 960px;
+    background-color: #f9db89;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background-color: #eeed9f;
+    height: 150px;
+    position: relative;
+}
+
+header img{
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#topLinks{
+    position: absolute;
+    width: 500px;
+    top: 100px;
+    right: 10px;
+}
+
+#topLinks li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a:link{
+    color: #ee4a09;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #f89279;
+}
+
+a:hover{
+    color: #9ace4d;
+}
+
+.currentPage{
+    color: #ee4a09;
+    border-bottom: solid thin #ee4a09;
+}
+
+.clearFix{
+    clear: both;
+}
+
+main{
+    background-image: url(_images/mog-hub_hero-shot.jpg);
+}
+
+#homeInfo{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+h1{
+    font-size: 2em;
+    color: white;
+    padding-left: 30px;
+    border-bottom: solid thin #ee4a09;
+    padding-bottom: 15px;
+    margin: 0%;
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    margin: 0px;
+    padding-left: 30px;
+}
+
+p{
+    font-size: 1em;
+    padding-left: 30px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 0.7em;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#bottomLinks li{
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#bookings, #volunteer, #gallery, #membership{
+    background-image: none;
+    padding-left: 25px;
+}
+
+#col1, #col2, #col3{
+    width: 300px;
+    float: left;
+    text-align: center;
+}
+
+#bookings img, #volunteer img{
+    width: 40px;
+}
+
+#bookings h2, #volunteer h2, #membership h2{
+    font-size: 1.5em;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+#bookings p, #volunteer p{
+    font-size: 0.8em;
+    text-align: left;
+}
+
+#membership #col1, #membership #col3{
+    display: none;
+}
+
+#membership #col2{
+    float: none;
+    padding-left: 145px;
+}
+
+@media only screen and (max-width: 960px) {
+    
+    #wrapper {
+      width: 360px;
+    }
+
+    header{
+        height: 375px;
+    }
+
+    header img{
+        left: 125px;
+    }
+
+    #topLinks{
+        right: 100px;
+        top: 150px;
+        width: 175px;
+    }
+
+    #topLinks li{
+        display: block;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    #homeInfo{
+        padding-right: 20px;
+        width: 340px;
+    }
+
+    #bottomLinks ul{
+        padding-left: 0px;
+    }
+
+    footer p{
+        padding-left: 10px;
+    }
+
+    #membership #col2{
+        padding-left: 0px;
+    }
+
+    iframe {
+        width: 320px;
+    }
+  }
+    
